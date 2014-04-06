@@ -23,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="kick.gemspec" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="kick.gemspec" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kick.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="24" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+            <state line="6" column="40" selection-start="182" selection-end="182" vertical-scroll-proportion="0.22354695" vertical-offset="0" max-vertical-offset="671">
               <folding />
             </state>
           </provider>
@@ -41,10 +41,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kick.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="kick.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/kick.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="40" selection-start="104" selection-end="104" vertical-scroll-proportion="0.26080477" vertical-offset="0" max-vertical-offset="1975">
+            <state line="7" column="40" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1975">
               <folding />
             </state>
           </provider>
@@ -60,9 +60,9 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/kick.gemspec" />
         <option value="$PROJECT_DIR$/bin/kick" />
         <option value="$PROJECT_DIR$/lib/kick.rb" />
+        <option value="$PROJECT_DIR$/kick.gemspec" />
       </list>
     </option>
   </component>
@@ -225,9 +225,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kick.gemspec">
+    <entry file="file://$PROJECT_DIR$/lib/kick.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="475">
+        <state line="7" column="40" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1975">
           <folding />
         </state>
       </provider>
@@ -239,9 +239,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/kick.rb">
+    <entry file="file://$PROJECT_DIR$/kick.gemspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="40" selection-start="104" selection-end="104" vertical-scroll-proportion="0.26080477" vertical-offset="0" max-vertical-offset="1975">
+        <state line="6" column="40" selection-start="182" selection-end="182" vertical-scroll-proportion="0.22354695" vertical-offset="0" max-vertical-offset="671">
           <folding />
         </state>
       </provider>
