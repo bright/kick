@@ -1,0 +1,18 @@
+#!/usr/bin/env ruby
+
+#puts Dir.pwd
+require 'kick'
+
+arg = ARGV[0]
+#puts "Argument: #{arg}"
+
+case arg
+when "build"
+  kick = Kick.new
+  kick.build
+when "dist"
+  kick = Kick.new
+  kick.dist
+else
+  puts "Unknown command #{arg}"
+end
