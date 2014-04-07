@@ -4,15 +4,6 @@
     <option name="compassExecutableFilePath" value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/compass-0.12.4/bin/compass" />
     <option name="compassSupportEnabled" value="true" />
   </component>
-  <component name="FacetManager">
-    <facet type="gem" name="Gem">
-      <configuration>
-        <option name="GEM_APP_ROOT_PATH" value="" />
-        <option name="GEM_APP_TEST_PATH" value="" />
-        <option name="GEM_APP_LIB_PATH" value="" />
-      </configuration>
-    </facet>
-  </component>
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
