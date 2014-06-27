@@ -51,14 +51,19 @@ class Kick
 
   end
 
-  def dist
+  def dist(distribution_list=nil)
 
     self.build
 
     notes = @build_settings.notes
     api_token = @build_settings.api_token
     team_token = @build_settings.team_token
-    distribution_list = @build_settings.distribution_list
+    if distribution_list == nil
+      distribution_list = @build_settings.distribution_list
+    end
+
+    puts "Enter your notes:\n"
+    notes = gets
 
     command_deploy = "ipa distribute:testflight -a #{api_token} -T #{team_token} -m '#{notes}' -l #{distribution_list} --notify --verbose"
 

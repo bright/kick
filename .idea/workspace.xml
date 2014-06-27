@@ -5,7 +5,7 @@
     <ignored path="kick.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/kick" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1403856823543" ignored="false" />
-    <file path="/kick.rb" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1403856958245" ignored="false" />
+    <file path="/kick.rb" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1403857664938" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="kick.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="kick.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/kick.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="28" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+            <state line="64" column="30" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.6498471">
               <folding />
             </state>
           </provider>
@@ -37,16 +37,16 @@
       <file leaf-file-name="kick" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bin/kick">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="8" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+            <state line="14" column="21" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kick.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="kick.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/kick-0.0.3/lib/kick.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="16" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.56269115">
+            <state line="15" column="12" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,9 +63,9 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/kick.gemspec" />
-        <option value="$PROJECT_DIR$/lib/kick.rb" />
         <option value="$PROJECT_DIR$/bin/kick" />
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/kick-0.0.3/lib/kick.rb" />
+        <option value="$PROJECT_DIR$/lib/kick.rb" />
       </list>
     </option>
   </component>
@@ -161,6 +161,26 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
+      <module name="" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -321,23 +341,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/kick.rb">
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/kick-0.0.3/lib/kick.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="28" selection-start="190" selection-end="190" vertical-scroll-proportion="0.0">
+        <state line="15" column="12" selection-start="444" selection-end="444" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/kick">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="8" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+        <state line="14" column="21" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/kick-0.0.3/lib/kick.rb">
+    <entry file="file://$PROJECT_DIR$/lib/kick.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="16" selection-start="1788" selection-end="1788" vertical-scroll-proportion="0.56269115">
+        <state line="64" column="30" selection-start="1772" selection-end="1772" vertical-scroll-proportion="0.6498471">
           <folding />
         </state>
       </provider>
