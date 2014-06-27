@@ -4,6 +4,7 @@
 require 'kick'
 
 arg = ARGV[0]
+distribution_list = ARGV[1]
 #puts "Argument: #{arg}"
 
 case arg
@@ -12,7 +13,7 @@ when "build"
   kick.build
 when "dist"
   kick = Kick.new
-  kick.dist
+  kick.dist(distribution_list)
 else
   puts "Unknown command #{arg}"
 end
