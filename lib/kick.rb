@@ -62,8 +62,8 @@ class Kick
       distribution_list = @build_settings.distribution_list
     end
 
-    puts "Enter your notes:\n"
-    notes = gets
+    #puts "Enter your notes:\n"
+    #notes = gets
 
     command_deploy = "ipa distribute:testflight -a #{api_token} -T #{team_token} -m '#{notes}' -l #{distribution_list} --notify --verbose"
 
