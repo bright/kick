@@ -1,8 +1,8 @@
 Gem::Specification.new do |s|
   s.name = 'kick'
-  s.version = '0.0.4'
+  s.version = '0.0.5'
   s.executables << 'kick'
-  s.date = '2014-04-07'
+  s.date = '2014-06-27'
   s.summary = "Build & push your iOS app to TestFlight"
   s.description = "Build & push your iOS app to TestFlight"
   s.authors = ["Michał łukasiewicz"]
