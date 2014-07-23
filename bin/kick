@@ -1,19 +1,54 @@
 #!/usr/bin/env ruby
 
-#puts Dir.pwd
 require 'kick'
+require 'optparse'
+
+class OptionsParser
+
+  def self.parse(args)
+    options = {}
+
+    opt_parser = OptionParser.new do |opts|
+      opts.banner = 'Usage: kick COMMAND [options]'
+
+      opts.separator ''
+      opts.separator 'Use "build" or "dist" as a COMMAND'
+      opts.separator ''
+      opts.separator 'Specific options:'
+
+      opts.on('-m', '--message ',
+              'Custom message for TestFlight') do |value|
+        options[:message] = value
+      end
+
+      opts.on('-d', '--distribution_list ',
+              'Distribution list to use') do |value|
+        options[:distribution_list] = value
+      end
+
+      opts.on_tail('-h', '--help', 'Show this message') do
+        puts opts
+        exit
+      end
+
+    end
+
+    opt_parser.parse!(args)
+    options
+  end
+
+end
+
 
 arg = ARGV[0]
-distribution_list = ARGV[1]
-#puts "Argument: #{arg}"
 
 case arg
-when "build"
-  kick = Kick.new
-  kick.build
-when "dist"
-  kick = Kick.new
-  kick.dist(distribution_list)
-else
-  puts "Unknown command #{arg}"
+  when 'build'
+    kick = Kick.new
+    kick.build
+  when 'dist'
+    kick = Kick.new
+    kick.dist(options[:distribution_list], options[:message])
+  else
+    OptionsParser.parse(["-h"])
 end
