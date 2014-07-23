@@ -41,6 +41,7 @@ end
 
 
 arg = ARGV[0]
+options = OptionsParser.parse(ARGV)
 
 case arg
   when 'build'
