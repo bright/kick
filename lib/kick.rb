@@ -21,7 +21,7 @@ class Kick
 
   def update_mobileprovision
     developer_portal_team_id = @build_settings.developer_portal_team_id
-    command_info = "ios profiles:download \"#{@provisioning_profile_in_developer_program_name}\" --team #{developer_portal_team_id}"
+    command_info = "ios profiles:download \"#{@provisioning_profile_in_developer_program_name}\" --team #{developer_portal_team_id} --type distribution"
     system(command_info)
   end
 

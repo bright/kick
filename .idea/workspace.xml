@@ -5,11 +5,25 @@
     <ignored path="kick.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/kick" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1406105902686" ignored="false" />
-    <file path="/kick.rb" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1406101006952" ignored="false" />
+    <file path="/kick.rb" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1416258746567" ignored="false" />
     <file path="/r.rb" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1406105629598" ignored="false" />
     <file path="$PROJECT_DIR$/../options/r.rb" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1406105666813" ignored="false" />
     <file path="/temp.rb" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1406105666813" ignored="false" />
     <file path="/kick.gemspec" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1406106000371" ignored="false" />
+    <file path="/Dummy.txt" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415318788215" ignored="false" />
+    <file path="$PROJECT_DIR$/../injection/test.sh" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415320329992" ignored="false" />
+    <file path="/test.sh" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415320329240" ignored="false" />
+    <file path="$PROJECT_DIR$/../injection/bin/injection" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415351968784" ignored="false" />
+    <file path="$PROJECT_DIR$/../injection/lib/injection.rb" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415351938401" ignored="false" />
+    <file path="$PROJECT_DIR$/../injection/injection.gemspec" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415320322857" ignored="false" />
+    <file path="/injection.gemspec" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415320322857" ignored="false" />
+    <file path="/injection.rb" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415351935947" ignored="false" />
+    <file path="/injection" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415351967915" ignored="false" />
+    <file path="/a.dummy" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415351667982" ignored="false" />
+    <file path="$PROJECT_DIR$/../injection/lib/muting_definitions.rb" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415351463173" ignored="false" />
+    <file path="/muting_definitions.rb" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415351462476" ignored="false" />
+    <file path="$USER_HOME$/Library/Application Support/Developer/Shared/Xcode/Plug-ins/InjectionPlugin.xcplugin/Contents/Resources/common.pm" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415351732554" ignored="false" />
+    <file path="/common.pm" changelist="8f14f94f-62ba-4934-b27b-c30f7225c4ed" time="1415351730355" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,19 +43,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="kick.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="kick.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/kick.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="48" selection-start="1035" selection-end="1060" vertical-scroll-proportion="0.5795107">
+            <state line="22" column="71" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kick.gemspec" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="a.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kick.gemspec" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kick.gemspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="20" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
+            <state line="4" column="22" selection-start="118" selection-end="118" vertical-scroll-proportion="0.12620027">
               <folding />
             </state>
           </provider>
@@ -50,16 +73,7 @@
       <file leaf-file-name="test.sh" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="kick" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin/kick">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="23" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
+            <state line="2" column="4" selection-start="0" selection-end="58" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -76,16 +90,16 @@
     <option name="changedFiles">
       <list>
         <option value="$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/kick-0.0.3/lib/kick.rb" />
-        <option value="$PROJECT_DIR$/lib/kick.rb" />
         <option value="$PROJECT_DIR$/bin/kick" />
+        <option value="$PROJECT_DIR$/lib/kick.rb" />
         <option value="$PROJECT_DIR$/kick.gemspec" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
-    <option name="width" value="1397" />
-    <option name="height" value="815" />
+    <option name="y" value="23" />
+    <option name="width" value="1390" />
+    <option name="height" value="877" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -101,7 +115,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -112,67 +126,11 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kick" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Tests" />
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../options" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../injection" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RubyRunConfigurationType" factoryName="Ruby">
@@ -207,14 +165,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1397" height="815" extended-state="0" />
+    <frame x="0" y="23" width="1390" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34566987" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5591398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -299,13 +257,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bin/kick">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/kick.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -334,9 +285,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/kick">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/kick.rb">
@@ -355,9 +304,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/kick">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/kick.rb">
@@ -374,35 +321,38 @@
     </entry>
     <entry file="file://$USER_HOME$/.rvm/gems/ruby-1.9.3-p327/gems/kick-0.0.6/lib/kick.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="6" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.3328336">
+        <state line="53" column="6" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.3328336" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="0" selection-end="58" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bin/kick">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="23" selection-start="874" selection-end="874" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="18" selection-start="0" selection-end="1064" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kick.gemspec">
+    <entry file="file://$PROJECT_DIR$/a.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="20" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="23" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/kick.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="48" selection-start="1035" selection-end="1060" vertical-scroll-proportion="0.5795107">
+        <state line="22" column="71" selection-start="694" selection-end="694" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kick.gemspec">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="118" selection-end="118" vertical-scroll-proportion="0.12620027">
           <folding />
         </state>
       </provider>

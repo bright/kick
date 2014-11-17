@@ -16,7 +16,6 @@
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="kick (v0.0.6, RVM: ruby-1.9.3-p327) [gem]" level="application" />
   </component>
 </module>
 
